@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
     height: 400px;
-    padding: 20px 0px;
+    padding: 12px 0px;
     background-color: #e8e8e8;
     display: flex;
     flex-direction: column;
@@ -12,12 +12,6 @@
         width: 100%;
         height: fit-content;
         text-align: center;
-    }
-
-    .icon {
-        width: 40px;
-        height: auto;
-        cursor: pointer;
     }
 }
 
@@ -59,4 +53,9 @@
     top: 97.5px;
     right: 50px;
 
+    .icon {
+        width: 40px;
+        height: auto;
+        cursor: pointer;
+    }
 }
