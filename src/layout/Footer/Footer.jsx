@@ -1,9 +1,13 @@
 import React from 'react';
-import './Footer.css';
+import './Footer.scss';
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer className='footer'>
+      <h2>DESENVOLVIMENTO WEB & SITES SOB ENCOMENDA & WEB DESIGN & SOLUÇÕES TECNOLÓGICAS</h2>
+      
+      <p>Projetado e criado por Gabriel Castro©</p>
+    </footer>
   )
 }
 
