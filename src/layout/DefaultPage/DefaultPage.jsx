@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
-import './DefaultPage.css';
+import './DefaultPage.scss';
 
 function DefaultPage({ children }) {
   return (
