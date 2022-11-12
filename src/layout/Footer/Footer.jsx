@@ -17,6 +17,10 @@ function Footer() {
         <Link to='/contact'> <Button>Fale comigo</Button> </Link>
       </div>
 
+      <div>
+        
+      </div>
+
       <p>Projetado e criado por Gabriel Castro©</p>
     </footer>
   )
