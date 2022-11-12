@@ -4,7 +4,7 @@ import Works from '../pages/Works/Works';
 import About from '../pages/About/About';
 import Contact from '../pages/Contact/Contact';
 
-function ProjectRoutes() {
+export function routes() {
   return (
     <Router>
       <Routes>
@@ -16,5 +16,3 @@ function ProjectRoutes() {
     </Router>
   )
 }
-
-export default ProjectRoutes
