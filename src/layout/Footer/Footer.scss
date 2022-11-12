@@ -13,3 +13,31 @@
         text-align: center;
     }
 }
+
+.about-me{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    img {
+        margin: 0 50px;
+    }
+
+    p {
+        width: 500px;
+        height: fit-content;
+        margin: 0 50px;
+        text-align: left;
+    }
+}
+
+.minding-a-project{
+    display: flex;
+    align-items: center;
+
+    h2 {
+        margin: 0 50px;
+    }
+}
