@@ -1,3 +1,20 @@
-.header a{
-    color: #000;
+$black: #000000;
+
+.header{
+    width: 100%;
+    height: 85px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        color: $black;
+    }
+
+    nav {
+        width: 320px;
+        display: flex;
+        justify-content: space-around;
+    }
 }
