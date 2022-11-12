@@ -1,16 +1,23 @@
 .footer{
     width: 100%;
-    height: 350px;
+    height: 400px;
     padding: 20px 0px;
     background-color: #e8e8e8;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 
     p {
         width: 100%;
         height: fit-content;
         text-align: center;
+    }
+
+    .icon {
+        width: 40px;
+        height: auto;
+        cursor: pointer;
     }
 }
 
@@ -40,4 +47,16 @@
     h2 {
         margin: 0 50px;
     }
+}
+
+.icon-div{
+    width: fit-content;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 97.5px;
+    right: 50px;
+
 }

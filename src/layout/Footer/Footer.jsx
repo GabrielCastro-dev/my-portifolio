@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import Button from '../../components/Button/Button';
+import { BsLinkedin, BsEnvelopeFill } from 'react-icons/bs';
+import { FaGithubSquare } from 'react-icons/fa';
 import './Footer.scss';
 
 function Footer() {
@@ -17,8 +19,16 @@ function Footer() {
         <Link to='/contact'> <Button>Fale comigo</Button> </Link>
       </div>
 
-      <div>
-        
+      <div className='icon-div'>
+        <a href="#" target='_blank'>
+          <BsLinkedin className='icon' />
+        </a>
+        <a href="#" target='_blank'>
+          <BsEnvelopeFill className='icon' />
+        </a>
+        <a href="#" target='_blank'>
+          <FaGithubSquare className='icon' />
+        </a>
       </div>
 
       <p>Projetado e criado por Gabriel Castro©</p>
