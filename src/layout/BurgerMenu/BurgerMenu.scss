@@ -10,12 +10,40 @@
     }
 }
 
-.burger-btn-open{
+.burger-btn{
+    width: 40px;
+    height: 34.5px;
     padding: 7px;
     border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
 
-    .burger-icon {
-        font-size: 32px;
+    .line{
+        height: 2.5px;
+        background-color: #000000;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .first.line{
+        transform-origin: 0% 0%;
+    }
+
+    .last.line{
+        transform-origin: 0% 100%;
+    }
+
+    .first.line.X{
+        transform: rotate(45deg);
+    }
+
+    .second.line.X{
+        transform: scaleY(0);
+    }
+
+    .last.line.X{
+        transform: rotate(-45deg);
     }
 }
 
@@ -43,7 +71,7 @@
 }
 
 @media (min-width: 992px) {
-    .burger-btn-open, .side-bar {
+    .burger-btn, .side-bar {
         display: none;
     }
 }
