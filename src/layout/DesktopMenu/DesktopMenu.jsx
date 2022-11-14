@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './DesktopNav.scss';
+import './DesktopMenu.scss';
 
 function DesktopNav() {
   return (

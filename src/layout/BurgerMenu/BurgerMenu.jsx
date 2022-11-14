@@ -13,9 +13,9 @@ function BurgerMenu() {
     return (
         <>
             <button className='burger-btn' onClick={handleClick}> 
-                <hr className={ isOpened ? 'first line X' : 'first line burger' }/>
-                <hr className={ isOpened ? 'second line X' : 'second line burger' }/>
-                <hr className={ isOpened ? 'last line X' : 'last line burger' }/>
+                <hr className={ isOpened ? 'first line X' : 'first line' }/>
+                <hr className={ isOpened ? 'second line X' : 'second line' }/>
+                <hr className={ isOpened ? 'last line X' : 'last line' }/>
             </button>
             <nav className={isOpened ? 'side-bar open' : 'side-bar closed'}>
                 <Link to='/'>início, </Link>
