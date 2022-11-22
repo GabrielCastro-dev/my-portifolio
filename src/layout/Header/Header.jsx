@@ -10,6 +10,7 @@ function Header() {
       <Link to='/'><h2>Castro, Gabriel</h2></Link>
       <DesktopMenu />
       <BurgerMenu />
+      <hr className='bottom-line'/>
     </header>
   )
 }

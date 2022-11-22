@@ -1,0 +1,36 @@
+.banner{
+    width: 100vw;
+    height: 100vh;
+    padding: 85px 60px 20px 60px;
+    background-image: linear-gradient(45deg, #F25960, #C289F6, #F2f2F2);
+    color: #000;
+
+    h1 {
+        width: 350px;
+        font-size: 130px;
+        line-height: 1.1;
+        overflow-wrap: break-word;
+        text-align: left;
+        position: relative;
+        z-index: 1000;
+    }
+
+    p {
+        width: 250px;
+        position: absolute;
+        left: 400px;
+        bottom: 75px;
+    }
+
+    .noise {
+        width: 100vw;
+        height: 100vh;
+        background: url(../../assets/noise.gif);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: 0.05;
+        z-index: 0;
+    }
+}
