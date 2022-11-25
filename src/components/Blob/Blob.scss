@@ -1,5 +1,11 @@
 @import '../../styles/colorPalette.scss';
 
+@function randomNum($min, $max) {
+    $rand: random();
+    $randomNum: $min + floor($rand * (($max - $min) + 1));
+
+    @return $randomNum;
+}
 
 @keyframes morph {
     from {
@@ -12,12 +18,8 @@
 }
 
 .blob {
-    width: 650px;
-    height: 650px;
     position: absolute;
-    top: 20vh;
-    right: 12vw;
     background: linear-gradient(191deg, $primary, rgba(44,77,141,1) 35%, rgba(60,34,107,1) 60%, $secondary);
     animation: morph 8s infinite alternate;
-    filter: blur(25px);
+    filter: blur(30px);
 }
