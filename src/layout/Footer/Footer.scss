@@ -8,37 +8,33 @@
     color: $white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
+    overflow: hidden;
 
     p {
         width: 100%;
         height: fit-content;
         text-align: center;
+        z-index: 500;
     }
 
     h2 {
         overflow: hidden;
         white-space: nowrap;
-    }
-}
-
-.about-me{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-    img {
-        margin: 0 50px;
+        z-index: 500;
     }
 
-    p {
-        width: 500px;
-        height: fit-content;
-        margin: 0 50px;
-        text-align: left;
+    .credits {
+        position: absolute;
+        bottom: 15px;
+        right: auto;
+        left: auto;
+    }
+
+    .standard-button {
+        position: relative;
+        z-index: 500;
     }
 }
 
@@ -60,6 +56,7 @@
     position: absolute;
     top: 97.5px;
     right: 50px;
+    z-index: 500;
 
     .icon {
         width: 40px;
@@ -71,7 +68,7 @@
 
 @media (max-width: 992px){
     .footer {
-        height: 500px;
+        height: 300px;
     }
 
     .about-me {
@@ -97,6 +94,7 @@
     .icon-div {
         width: 220px;
         height: 40px;
+        margin-top: 60px;
         padding: 0 25px;
         position: static;
         flex-direction: row;
