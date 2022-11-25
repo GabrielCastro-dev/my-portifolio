@@ -28,10 +28,10 @@ function ImgAndTxt() {
     }
   } else {
     blobProps = {
-      width: '200px',
-      height: '200px',
-      top: '90px',
-      left: '90px',
+      width: '180px',
+      height: '180px',
+      top: '70px',
+      left: '70px',
       duration: '4s'
     }
   }
