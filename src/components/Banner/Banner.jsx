@@ -15,8 +15,8 @@ function Banner() {
             <h1>web</h1>
             <p>Problemas modernos exigem soluções modernas</p>
             <Blob 
-                width='650px'
-                height='650px'
+                width='680px'
+                height='680px'
                 top='20vh'
                 right='7vw'
                 duration='5s'
