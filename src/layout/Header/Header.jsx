@@ -7,6 +7,7 @@ import './Header.scss';
 function Header() {
   return (
     <header className='header'>
+      <div className='glass'></div>
       <Link to='/'><h2>Castro, Gabriel</h2></Link>
       <DesktopMenu />
       <BurgerMenu />
