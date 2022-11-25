@@ -21,17 +21,23 @@
     height: fit-content;
     padding: 180px 110px;
 
-    img {
-        animation: spin 40s infinite linear;
-    }
-
     p {
         color: $white;
         font-size: 20px;
     }
 
-    .blob {
-        filter: blur(0);
+    .image-blob {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+
+        img {
+            animation: spin 40s infinite linear;
+        }
+
+        .blob {
+            filter: blur(0);
+        }
     }
     
 }
@@ -43,5 +49,28 @@
     .standard-button {
         margin-top: 30px;
         align-self: flex-end;
+
+        a {
+            color: $white;
+        }
+    }
+}
+
+@media (max-width: 1630px){
+    .container {
+        padding: 100px 0;
+        flex-direction: column;
+        overflow: hidden;
+
+        img {
+            width: 380px;
+            height: auto;
+        }
+
+    }
+
+    .text {
+        width: 90vw;
+        margin: 50px 0;
     }
 }
