@@ -19,18 +19,21 @@ function Banner() {
                 height='650px'
                 top='20vh'
                 right='7vw'
+                duration='8s'
             />
             <Blob 
                 width='520px'
                 height='450px'
                 top='55vh'
                 right='75vw'
+                duration='15s'
             />
             <Blob 
                 width='300px'
                 height='250px'
                 top='-10vh'
                 right='95vw'
+                duration='2s'
             />
         </div>
     )

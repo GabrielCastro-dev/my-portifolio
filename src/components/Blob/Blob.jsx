@@ -5,7 +5,8 @@ function Blob(props) {
         width: props.width,
         height: props.height,
         top: props.top,
-        right: props.right
+        right: props.right,
+        animationDuration: props.duration
     }
 
     return (
