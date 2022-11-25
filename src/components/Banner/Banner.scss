@@ -25,18 +25,6 @@
         z-index: 500;
     }
 
-    .noise {
-        width: 100vw;
-        height: 100vh;
-        background: url(../../assets/noise.gif);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        opacity: 0.02;
-        z-index: 0;
-    }
-
 }
 
 @media (max-width: 992px) {

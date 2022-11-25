@@ -6,6 +6,7 @@ function Blob(props) {
         height: props.height,
         top: props.top,
         right: props.right,
+        left: props.left,
         animationDuration: props.duration
     }
 

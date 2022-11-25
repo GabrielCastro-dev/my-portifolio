@@ -4,7 +4,6 @@ import Blob from '../Blob/Blob';
 function Banner() {
     return (
         <div className='banner'>
-            <div className='noise'/>
             <h1>
                 DE
                 SEN
