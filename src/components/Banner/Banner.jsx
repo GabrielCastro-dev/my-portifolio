@@ -1,5 +1,5 @@
-import me from '../../assets/me.png';
 import './Banner.scss';
+import Blob from '../Blob/Blob';
 
 function Banner() {
     return (
@@ -14,6 +14,7 @@ function Banner() {
             </h1>
             <h1>web</h1>
             <p>Problemas modernos exigem soluções modernas</p>
+            <Blob />
         </div>
     )
 }

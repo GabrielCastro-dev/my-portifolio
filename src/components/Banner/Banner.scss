@@ -1,10 +1,10 @@
+@import '../../styles/colorPalette.scss';
+
 .banner{
     width: 100vw;
     height: 100vh;
     padding: 85px 60px 20px 60px;
-    background: -webkit-linear-gradient(bottom right, #111CB8, #9a3c56);
-    background: -moz-linear-gradient(bottom right, #111CB8, #9a3c56);
-    background: linear-gradient(to top left, #111CB8, #9a3c56);
+    background: transparent;
     color: #fff;
 
     h1 {
@@ -32,7 +32,8 @@
         top: 0;
         left: 0;
         right: 0;
-        opacity: 0.05;
+        opacity: 0.02;
         z-index: 0;
     }
+
 }

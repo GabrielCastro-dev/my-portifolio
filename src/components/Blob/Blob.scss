@@ -1,0 +1,23 @@
+@import '../../styles/colorPalette.scss';
+
+
+@keyframes morph {
+    from {
+        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+    }
+
+    to {
+        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+    }
+}
+
+.blob {
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    top: 20vh;
+    right: 12vw;
+    background: linear-gradient(191deg, $primary, rgba(44,77,141,1) 35%, rgba(60,34,107,1) 60%, $secondary);
+    animation: morph 8s infinite alternate;
+    filter: blur(25px);
+}
