@@ -18,7 +18,7 @@ function Banner() {
                 width='680px'
                 height='680px'
                 top='20vh'
-                right='7vw'
+                right='5vw'
                 duration='5s'
             />
             <Blob 

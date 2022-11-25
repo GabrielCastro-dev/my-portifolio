@@ -16,3 +16,9 @@
     animation: morph 8s infinite alternate;
     filter: blur(60px);
 }
+
+@media (max-width: 992px){
+    .blob {
+        filter: blur(40px);
+    }
+}
