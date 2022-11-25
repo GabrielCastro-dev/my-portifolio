@@ -1,0 +1,30 @@
+@import '../../styles/colorPalette.scss';
+
+.container, .text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    width: 100%;
+    height: fit-content;
+    padding: 85px 110px;
+
+    p {
+        color: $white;
+        font-size: 20px;
+    }
+
+    
+}
+
+.text {
+    width: 900px;
+    flex-direction: column;
+
+    .standard-button {
+        margin-top: 30px;
+        align-self: flex-end;
+    }
+}
