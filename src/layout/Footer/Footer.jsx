@@ -8,6 +8,7 @@ import './Footer.scss';
 function Footer() {
   return (
     <footer className='footer'>
+      <div className='glass'></div>
       <div className='minding-a-project'>
         <h2>Pensando em um projeto?</h2>
         <Link to='/contact'> <Button>Fale comigo</Button> </Link>
