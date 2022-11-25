@@ -1,5 +1,15 @@
 @import '../../styles/colorPalette.scss';
 
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 .container, .text{
     display: flex;
     align-items: center;
@@ -9,7 +19,11 @@
 .container{
     width: 100%;
     height: fit-content;
-    padding: 150px 110px;
+    padding: 180px 110px;
+
+    img {
+        animation: spin 40s infinite linear;
+    }
 
     p {
         color: $white;
