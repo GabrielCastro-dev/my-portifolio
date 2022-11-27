@@ -13,13 +13,13 @@
 .container, .text{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .container{
     width: 100%;
     height: fit-content;
-    padding: 180px 110px;
+    padding: 180px 130px;
 
     p {
         color: $white;

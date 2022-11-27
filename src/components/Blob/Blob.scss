@@ -14,7 +14,7 @@
     position: absolute;
     background: linear-gradient(191deg, $primary, rgba(44,77,141,1) 35%, rgba(60,34,107,1) 60%, $secondary);
     animation: morph 8s infinite alternate;
-    filter: blur(60px);
+    filter: blur(45px);
 }
 
 @media (max-width: 992px){
