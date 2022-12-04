@@ -47,3 +47,44 @@
         }
     }
 }
+
+@media (max-width: 1520px){
+    .landing-projects{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .title{
+            padding-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 1005px){
+    .landing-projects{
+        padding: 0;
+        overflow: hidden;
+
+        .projects{
+            grid-template-columns: 1fr;
+            margin-top: 100px;
+
+            a{
+                top: -90px;
+                right: -60px;
+
+                img{
+                    width: 200px;
+                    height: auto;
+                }
+            }
+        }
+
+        .title{
+            h2{
+                font-size: 80px;
+                line-height: 1.2;
+            }
+        }
+    }
+}
