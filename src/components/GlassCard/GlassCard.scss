@@ -1,0 +1,18 @@
+@import '../../styles/colorPalette.scss';
+
+.glass-card{
+    width: 400px;
+    height: 280px;
+    background: linear-gradient(180deg, #363378 0%, rgba(54, 51, 120, 0) 82.73%);
+    border: 1px solid #353274;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    h3 {
+        font-size: 36px;
+        color: $white;
+    }
+}
