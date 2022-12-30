@@ -1,9 +1,11 @@
-import React from 'react';
-import './Works.css';
+import DefaultPage from '../../layout/DefaultPage/DefaultPage';
+import './Works.scss';
 
 function Works() {
   return (
-    <div>Works</div>
+    <DefaultPage>
+
+    </DefaultPage>
   )
 }
 

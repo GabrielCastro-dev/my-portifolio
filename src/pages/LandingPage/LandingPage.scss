@@ -1,7 +1,7 @@
 .tech-title{
     width: 100%;
     height: fit-content;
-    padding: 40px 130px;
+    padding: 130px 130px 40px 130px;
     color: #ffffff;
     text-align: center;
 }
@@ -9,12 +9,12 @@
 .tech-stack{
     width: 100%;
     height: fit-content;
-    padding: 0 130px;
+    padding: 0 130px 130px 130px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    row-gap: 15px;
+    gap: 20px;
 }
 
 @media (max-width: 620px){
