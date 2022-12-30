@@ -24,7 +24,7 @@ export const techStack = [
         image: react
     },
     {
-        name: 'NodeJs',
+        name: 'Node.Js',
         image: node
     },
     {
