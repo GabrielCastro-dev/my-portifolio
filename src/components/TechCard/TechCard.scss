@@ -1,0 +1,16 @@
+.tech-card{
+    width: fit-content;
+    height: fit-content;
+    padding: 15px 18px;
+    color: #ffffff;
+    background: rgba(33, 33, 35, 0.4);
+    border: 1px solid #2E2E32;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h3{
+        margin-left: 10px;
+    }
+}
