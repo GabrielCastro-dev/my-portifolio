@@ -13,4 +13,19 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+@media (max-width: 620px){
+    .tech-title{
+        padding: 40px;
+        font-size: 22px;
+    }
+
+    .tech-stack{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+    }
 }

@@ -14,3 +14,13 @@
         margin-left: 10px;
     }
 }
+
+@media (max-width: 620px){
+    .tech-card{
+        width: 180px;
+        
+        h3{
+            font-size: 16px;
+        }
+    }
+}
