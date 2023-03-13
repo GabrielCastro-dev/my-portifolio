@@ -1,3 +1,5 @@
+@import '../../styles/colorPalette.scss';
+
 @keyframes left-to-right{
     0% {
         transform: translateX(-80vw);
@@ -54,7 +56,7 @@
     min-height: 100vh;
     overflow: hidden;
     padding: 40px 10px;
-    background-color: #9c9c9c;
+    background-color: $background;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,8 +66,13 @@
     left: 0;
     z-index: 1200;
 
+    hr{
+        width: 90%;
+        color: $white;
+    }
+
     .side-bar-link{
-        padding: 20px 10px;
+        padding: 30px 10px;
         font-size: 22px;
     }
 }

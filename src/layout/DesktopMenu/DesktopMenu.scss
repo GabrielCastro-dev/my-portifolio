@@ -1,8 +1,14 @@
+@import '../../styles/colorPalette.scss';
+
 .desktop-nav {
     width: 400px;
     display: flex;
     justify-content: space-around;
-    color: #fff;
+    color: $white;
+
+    a{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 992px) {
