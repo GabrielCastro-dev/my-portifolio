@@ -11,7 +11,8 @@ function Banner() {
                 VE
                 DOR
             </h1>
-            <h1>web</h1>
+
+            <h1 className='web'>web</h1>
             <p>Problemas modernos exigem soluções modernas</p>
             <Blob 
                 width='680px'
