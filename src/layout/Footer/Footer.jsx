@@ -15,13 +15,13 @@ function Footer() {
       </div>
 
       <div className='icon-div'>
-        <a href="#" target='_blank'>
+        <a href="#" target='_blank' rel='noreferrer'>
           <BsLinkedin className='icon' />
         </a>
-        <a href="#" target='_blank'>
+        <a href="#" target='_blank' rel='noreferrer'>
           <BsEnvelopeFill className='icon' />
         </a>
-        <a href="#" target='_blank'>
+        <a href="https://github.com/GabrielCastro-dev" target='_blank' rel='noreferrer'>
           <FaGithubSquare className='icon' />
         </a>
       </div>
