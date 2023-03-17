@@ -48,7 +48,7 @@ function Footer() {
         duration='2s'
       />
 
-      <p className='credits'>Projetado e criado por Gabriel Castro©</p>
+      <p className='credits'>©2023 Desenvolvido por Gabriel Castro</p>
     </footer>
   )
 }
