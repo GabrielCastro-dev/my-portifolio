@@ -15,3 +15,17 @@ a {
 body{
     background-color: $background;
 }
+
+h1{
+    font-size: 130px;
+    line-height: 1.1;
+    overflow-wrap: break-word;
+    text-align: left;
+    z-index: 500;
+}
+
+.empty{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $white;
+}

@@ -2,31 +2,22 @@
 
 .banner{
     width: 100vw;
-    height: fit-content;
+    height: 85vh;
     padding: 85px 120px 20px 120px;
     background: transparent;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    h1 {
-        width: 350px;
-        font-size: 130px;
-        line-height: 1.1;
-        overflow-wrap: break-word;
-        text-align: left;
-        position: relative;
-        z-index: 500;
-    }
-
-    .web{
-        margin-top: 40px;
+    .subtitle{
+        display: flex;
+        align-items: center;
     }
 
     p {
         width: 250px;
-        position: absolute;
-        left: 450px;
-        bottom: 35px;
-        z-index: 500;
+        margin-left: 20px;
     }
 
 }

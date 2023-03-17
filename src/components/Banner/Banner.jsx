@@ -4,16 +4,13 @@ import Blob from '../Blob/Blob';
 function Banner() {
     return (
         <div className='banner'>
-            <h1>
-                DE
-                SEN
-                VOL
-                VE
-                DOR
-            </h1>
+            <h1>DESENVOLVEDOR</h1>
 
-            <h1 className='web'>web</h1>
-            <p>Problemas modernos exigem soluções modernas</p>
+            <div className='subtitle'>
+                <h1 className='empty'>WEB</h1>
+                <p>Problemas modernos exigem soluções modernas</p>
+            </div>
+
             <Blob 
                 width='680px'
                 height='680px'
