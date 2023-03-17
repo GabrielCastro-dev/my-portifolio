@@ -4,7 +4,7 @@
 .banner{
     width: 100vw;
     height: 85vh;
-    padding: 0 120px 20px 120px;
+    padding-bottom: 20px;
     background: transparent;
     color: #fff;
     display: flex;
@@ -27,7 +27,7 @@
 @media (max-width: $tablet ) {
     .banner {
         height: 90vh;
-        padding: 100px 15px 40px 15px;
+        padding-bottom: 40px;
         overflow-wrap: break-word;
 
         h1 {

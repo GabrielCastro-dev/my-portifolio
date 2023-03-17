@@ -1,4 +1,12 @@
+@import '../../styles/breakpoints.scss';
+
 main{
-    padding-top: 85px;
+    padding: 85px 130px 0 130px;
     min-height: calc(100vh - 485px);
+}
+
+@media (max-width: $tablet){
+    main{
+        padding: 85px 0 0 0;
+    }
 }
