@@ -15,6 +15,7 @@
     background: linear-gradient(191deg, $primary, rgba(44,77,141,1) 35%, rgba(60,34,107,1) 60%, $secondary);
     animation: morph 8s infinite alternate;
     filter: blur(45px);
+    z-index: -1;
 }
 
 @media (max-width: 992px){

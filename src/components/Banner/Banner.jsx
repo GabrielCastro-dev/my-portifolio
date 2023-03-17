@@ -1,10 +1,19 @@
+import { useEffect, useState } from 'react';
 import './Banner.scss';
 import Blob from '../Blob/Blob';
 
 function Banner() {
+    const [title, setTitle] = useState('DEVELOPER');
+
+    useEffect(() => {
+        if(window.innerWidth < 992){
+            setTitle('DES EN VOL VE DOR')
+        }
+    }, [])
+    
     return (
         <div className='banner'>
-            <h1>DESENVOLVEDOR</h1>
+            <h1>{title}</h1>
 
             <div className='subtitle'>
                 <h1 className='empty'>WEB</h1>
