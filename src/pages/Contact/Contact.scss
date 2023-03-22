@@ -1,7 +1,7 @@
 @import '../../styles/colorPalette.scss';
 
 .contact{
-    margin: 50px 0;
+    margin: 100px 0;
     display: flex;
 
     .left{
@@ -64,7 +64,6 @@
             color: $background;
             border: none;
             border-radius: 12px;
-            cursor: pointer;
         }
     }
 }
