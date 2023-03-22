@@ -3,7 +3,7 @@ import './Banner.scss';
 import Blob from '../Blob/Blob';
 
 function Banner() {
-    const [title, setTitle] = useState('DEVELOPER');
+    const [title, setTitle] = useState('DESENVOLVEDOR');
 
     useEffect(() => {
         if(window.innerWidth < 992){
