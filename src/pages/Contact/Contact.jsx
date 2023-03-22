@@ -10,7 +10,13 @@ function Contact(){
           <h1 className='empty'>CONTATO</h1>
         </div>
         <form>
-
+          <div>
+            <input type="text" placeholder='Nome'/>
+            <input type="text" placeholder='Email'/>
+          </div>
+          <input type="text" placeholder='Assunto'/>
+          <textarea type="text" placeholder='Mensagem'/>
+          <button>Enviar</button>
         </form>
       </div>
     </DefaultPage>
