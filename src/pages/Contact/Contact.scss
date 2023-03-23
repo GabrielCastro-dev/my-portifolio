@@ -54,7 +54,7 @@
             height: 300px;
         }
 
-        button{
+        .send-button{
             width: 40%;
             height: 65px;
             margin-top: 35px;
@@ -64,6 +64,7 @@
             color: $background;
             border: none;
             border-radius: 12px;
+            cursor: pointer;
         }
     }
 }
