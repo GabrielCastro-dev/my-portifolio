@@ -49,7 +49,7 @@ function Contact(){
           width='500px'
           height='350px'
           top='500px'
-          right='-100px'
+          right='0'
         />
       </div>
     </DefaultPage>
