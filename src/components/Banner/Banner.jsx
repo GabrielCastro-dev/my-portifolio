@@ -7,7 +7,7 @@ function Banner() {
 
     useEffect(() => {
         if(window.innerWidth < 992){
-            setTitle('DES EN VOL VE DOR')
+            setTitle('DESEN VOLVE DOR')
         }
     }, [])
     
