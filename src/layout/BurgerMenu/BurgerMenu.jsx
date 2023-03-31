@@ -18,10 +18,10 @@ function BurgerMenu() {
             </button>
             <nav className={isOpened ? 'side-bar open' : 'side-bar closed'}>
                 <hr />
-                <Link to='/' className='side-bar-link' >Início, </Link>
-                <Link to='/works' className='side-bar-link' >Trabalhos, </Link>
-                <Link to='/about' className='side-bar-link' >Sobre, </Link>
-                <Link to='/contact' className='side-bar-link' >Contato, </Link>
+                <Link to='/' className='side-bar-link' >Início </Link>
+                <Link to='/works' className='side-bar-link' >Trabalhos </Link>
+                <Link to='/about' className='side-bar-link' >Sobre </Link>
+                <Link to='/contact' className='side-bar-link' >Contato </Link>
             </nav>
         </>
     )

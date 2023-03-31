@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className='header'>
       <div className='glass'></div>
-      <Link to='/'><h2>Castro, Gabriel</h2></Link>
+      <Link to='/'><h2>Gabriel Castro</h2></Link>
       <DesktopMenu />
       <BurgerMenu />
       <hr className='bottom-line'/>

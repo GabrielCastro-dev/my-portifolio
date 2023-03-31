@@ -15,7 +15,7 @@ function Footer() {
       </div>
 
       <div className='icon-div'>
-        <a href="#" target='_blank' rel='noreferrer'>
+        <a href="https://www.linkedin.com/in/gabriel-castro-78614526b/" target='_blank' rel='noreferrer'>
           <BsLinkedin className='icon' />
         </a>
         <a href="#" target='_blank' rel='noreferrer'>

@@ -4,10 +4,10 @@ import './DesktopMenu.scss';
 function DesktopNav() {
   return (
     <nav className='desktop-nav'>
-        <Link to='/'>Início, </Link>
-        <Link to='/works'>Trabalhos, </Link>
-        <Link to='/about'>Sobre, </Link>
-        <Link to='/contact'>Contato, </Link>
+        <Link to='/'>Início </Link>
+        <Link to='/works'>Trabalhos </Link>
+        <Link to='/about'>Sobre </Link>
+        <Link to='/contact'>Contato </Link>
     </nav>
   )
 }
