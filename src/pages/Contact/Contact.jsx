@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import DefaultPage from '../../layout/DefaultPage/DefaultPage';
 import Blob from '../../components/Blob/Blob';
 import emailjs from '@emailjs/browser';
