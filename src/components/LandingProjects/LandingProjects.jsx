@@ -11,6 +11,7 @@ function LandingProjects() {
     <section className='landing-projects'>
         <div className='projects'>
           {projects.map(project => <GlassCard title={project.title} /> )}
+          
           <a href={rightsLink} target='_blank' rel='noreferrer'>
             <img src={globe} alt="Imagem de GarryKillian no Freepik" />
           </a>
