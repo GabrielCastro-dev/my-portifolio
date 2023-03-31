@@ -10,7 +10,7 @@ import './LandingPage.scss';
 function LandingPage() {
   return (
     <DefaultPage>
-      <Banner />
+      <Banner title='DESENVOLVEDOR' subtitle='WEB' phrase='Problemas modernos exigem soluções modernas' />
       <ImgAndTxt />
       <LandingProjects />
       <h2 className='tech-title'>Trabalhando com as tecnologias mais populares do mercado</h2 >

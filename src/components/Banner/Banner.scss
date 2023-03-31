@@ -29,14 +29,11 @@
         height: 90vh;
         padding-bottom: 40px;
         overflow-wrap: break-word;
-
-        h1 {
-            width: 250px;
-            padding-left: 5vw;
-            font-size: 60px;
-            line-height: 0.95;
-        }
         
+        .subtitle{
+            margin-top: 10px;
+        }
+
         p {
             display: none;
         }
