@@ -5,7 +5,7 @@ function Project({image, title, description}) {
         <div className="project">
             <img src={image} alt="Imagem do Projeto" />
             <div>
-                <h3>{title}</h3>
+                <h2>{title}</h2>
                 <p>{description}</p>
                 <button>Saiba mais</button>
             </div>
