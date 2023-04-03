@@ -46,7 +46,7 @@ function ImgAndTxt() {
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget auctor felis. Maecenas id lacus libero. Sed ac sem tempor, sollicitudin eros sed, dignissim mi. Curabitur tincidunt diam vel augue sollicitudin, ac pulvinar est vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et dui finibus, aliquet eros id, ultrices quam. Vivamus mollis odio eu diam placerat, sit amet hendrerit est sagittis.
           </p>
-          <Button><Link to='/about'>SAIBA MAIS</Link></Button>
+          <Button><Link to='/about'>Saiba mais</Link></Button>
         </div>
       </section>
   )
