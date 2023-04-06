@@ -23,6 +23,7 @@ function Works() {
          right='0vw'
          duration='5s'
       />
+      
       <Project 
         id={0}
         image={mockup}
