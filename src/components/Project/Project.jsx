@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
 import './Project.scss';
 
-function Project({image, title, description}) {
+function Project({id, image, title, description}) {
     return (
         <div className='project-background'>
             <div className="project">
@@ -9,7 +10,7 @@ function Project({image, title, description}) {
                 <div>
                     <h2>{title}</h2>
                     <p>{description}</p>
-                    <Button>Saiba mais</Button>
+                    <Button><Link to={`project/${id}`}>Saiba mais</Link></Button>
                 </div>
             </div>
         </div>

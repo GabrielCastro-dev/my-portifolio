@@ -16,6 +16,10 @@
         background:  linear-gradient(to right, $secondary, $primary);
     }
 
+    a {
+        color: $white;
+    }
+
     &:hover {
         .horizontal-line {
             width: 100%;
