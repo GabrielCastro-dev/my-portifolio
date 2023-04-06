@@ -1,3 +1,5 @@
+@import '../../styles/breakpoints.scss';
+
 .project-background{
     width: 100%;
     height: fit-content;
@@ -34,6 +36,18 @@
         button{
             position: absolute;
             top: 240px;
+        }
+    }
+}
+
+@media (max-width: $tablet){
+    .project{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+
+        div{
+            margin-left: 0;
         }
     }
 }
