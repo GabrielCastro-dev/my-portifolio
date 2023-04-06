@@ -16,6 +16,13 @@ function Works() {
          left='0vw'
          duration='5s'
       />
+      <Blob 
+         width='360px'
+         height='250px'
+         top='20vh'
+         right='0vw'
+         duration='5s'
+      />
       <Project 
         id={0}
         image={mockup}
